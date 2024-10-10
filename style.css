@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#about {
+    padding-top: 20px;
+   padding-left: 20px;
+    background-color: #E2F1E7;
+}
+#skill {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#experience {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#edu {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#achieve {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#contact {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+hr{
+   border-top: 1px solid black;
+}
+.info{
+    background-color:#243642;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    
+}
+.info img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+#navbar{
+    background-color: #629584;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+   
+    a{
+        color: white;
+        size: 10px;
+    }
+}
+ a {
+ text-decoration: none;
+ color: #4E1A3D;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li {
+    background-color:#E2F1E7;
+    padding: 10px;
+    list-style-type: none;
+    
+}
+.ex-content{
+
+    background-color:#E2F1E7;
+    padding: 10px;  
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  th{
+    background-color:#E2F1E7;
+  }
+  input,textarea{
+    width: 100%;
+    padding: 5px;
+    background-color:#E2F1E7;;
+    border: none;
+  }
+  button{
+    width: 100%;
+    padding: 5px;
+    background-color:#E2F1E7;
+    border-radius: 5px;
+    border: none;
+  }
+footer{
+    background-color:#E2F1E7;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+}
